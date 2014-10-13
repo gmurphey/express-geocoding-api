@@ -1,0 +1,41 @@
+{
+  "name": "express-geocoding-api",
+  "description": "The best project ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/gmurphey/express-app-geocoder",
+  "author": {
+    "name": "Garrett Murphey",
+    "email": "gmurphey@gmurphey.com",
+    "url": "gmurphey.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gmurphey/express-app-geocoder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gmurphey/express-app-geocoder/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/gmurphey/express-app-geocoder/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "app.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [],
+  "dependencies": {
+    "lodash.defaults": "^2.4.1"
+  }
+}
