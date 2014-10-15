@@ -1,7 +1,7 @@
 {
   "name": "express-geocoding-api",
   "description": "Express middleware that exposes geocoding endpoints.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/gmurphey/express-geocoding-api",
   "author": {
     "name": "Garrett Murphey",
