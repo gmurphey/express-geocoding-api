@@ -38,7 +38,7 @@
     "sinon": "^1.10.3",
     "supertest": "^0.14.0"
   },
-  "keywords": [],
+  "keywords": ["express", "api", "geocode", "geocoding"],
   "dependencies": {
     "express": "^4.9.7",
     "merge-defaults": "^0.2.1",
