@@ -17,6 +17,13 @@ app.use(express_geocoding_api({
 });
 ```
 
+This exposes a couple routes to your app.
+
+- `GET /geocode/location?address=<string>`
+- `GET /geocode/point?latitude=<float>&longitude=<float>`
+
+By default, each of these routes returns a JSON object containing `locations`.
+
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
