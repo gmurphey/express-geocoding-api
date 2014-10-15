@@ -21,7 +21,7 @@
       "url": "https://github.com/gmurphey/express-app-geocoder/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "app.js",
+  "main": "lib/express-geocoding-api.js",
   "engines": {
     "node": ">= 0.8.0"
   },
