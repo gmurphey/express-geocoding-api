@@ -1,8 +1,8 @@
 {
   "name": "express-geocoding-api",
-  "description": "The best project ever.",
+  "description": "Express middleware that exposes geocoding endpoints.",
   "version": "0.1.0",
-  "homepage": "https://github.com/gmurphey/express-app-geocoder",
+  "homepage": "https://github.com/gmurphey/express-geocoding-api",
   "author": {
     "name": "Garrett Murphey",
     "email": "gmurphey@gmurphey.com",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/gmurphey/express-app-geocoder.git"
+    "url": "git://github.com/gmurphey/express-geocoding-api.git"
   },
   "bugs": {
-    "url": "https://github.com/gmurphey/express-app-geocoder/issues"
+    "url": "https://github.com/gmurphey/express-geocoding-api/issues"
   },
   "licenses": [
     {
@@ -29,13 +29,20 @@
     "test": "grunt test"
   },
   "devDependencies": {
+    "grunt": "~0.4.5",
     "grunt-contrib-jshint": "~0.6.4",
-    "grunt-contrib-nodeunit": "~0.2.0",
     "grunt-contrib-watch": "~0.5.3",
-    "grunt": "~0.4.5"
+    "grunt-mocha-test": "^0.12.1",
+    "rewire": "^2.1.0",
+    "should": "^4.0.4",
+    "sinon": "^1.10.3",
+    "supertest": "^0.14.0"
   },
   "keywords": [],
   "dependencies": {
-    "lodash.defaults": "^2.4.1"
+    "express": "^4.9.7",
+    "lodash": "^2.4.1",
+    "merge-defaults": "^0.2.1",
+    "node-geocoder": "^2.9.1"
   }
 }
